@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, sans-serif;   
+}
+.menuitems{
+    text-align: end;
+    word-spacing: 10px;
+}
+.names{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    position:relative;
+    top: -5px;
+    right: 15px;
+}
+.names:hover{
+    text-decoration: underline;
+}
+#dropdown-menu{
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+.profilepic{
+    width: 32px;
+    height: 32px;
+    padding-right: 10px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.searchbox{
+    width: 582px;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;
+}
+#searchwrap{
+    position: relative;   
+    top:25%;
+    left:40%;
+}
+#searchbox{
+    width: 582px;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;
+    position: relative;
+    left: -13%;
+    top: 25px;
+}
+#searchbox:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+#but{
+    background-color:  #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    color: #222;
+    position: relative;
+    top: 50px;
+}
+#but:hover{
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+}
+#button{
+    padding: 10px;
+}
+#write{
+    border: none;
+    width: 95%;
+    height: 20px;
+    outline: none;
+    font-size: 18px;
+    position: relative;
+    top: -5px;
+}
+.appcard{
+    width: 285px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    display: none;
+    cursor: pointer;
+}
+#appitem{
+    display: inline-block;
+    width: 84px;
+    margin-bottom: 18px;
+    margin-right: 5px;
+    padding: 0;
+    position: relative;
+    top: 15px;
+}
+#appitem:hover{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+#appitem > img{
+    width: 50px;
+    height: 50px;
+    padding-left: 18px;  
+}
+#appitem > p{
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    padding-top:8px ;
+    padding-left: 18px;   
+}
+ #dropwrap{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+ }
+ #dropwrap:hover{
+     cursor: pointer;
+ }
+#box:hover
+.appcard{
+    display: block;
+ }
+
